@@ -36,6 +36,7 @@ const Toggle = styled.div`
   color: ${(props) => props.theme.fontColor};
   background: ${(props) => props.theme.bg2};
   width: 50px;
+  margin: auto;
   height: 50px;
   display: flex;
   justify-content: center;
