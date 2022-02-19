@@ -37,6 +37,10 @@ const Toggle = styled.div`
   background: ${(props) => props.theme.bg2};
   width: 50px;
   height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
   border-radius: 50px;
   transition: ${(props) => props.theme.transit};
 `;
